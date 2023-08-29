@@ -1,0 +1,5 @@
+spring:
+  mvc:
+    pathmatch:
+      # 引入swagger3.0时加入的配置 localhost:2365/swagger-ui/index.html
+      matching-strategy: ant_path_matcher
